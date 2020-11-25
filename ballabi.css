@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    display: flex;
+    background-color:rgb(26,56,130) ;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url(./IMG-20201125-WA0029.jpg);
+    position: absolute;
+    
+    background-repeat: no-repeat;
+}
+.imgdark{
+    background:rgba(0,0,0,0.5)
+}
+.wri{
+      text-align: center;
+    padding: 12%;
+    color: white;
+    font-size: xx-large;
+    
+}
