@@ -10,29 +10,46 @@
     justify-content: space-between;
     cursor: pointer;
 }
-.nav .button{
+.nav .button2{
     padding: 3%;
     cursor: pointer;
       text-transform: uppercase;   
 }
-.nav .button .a{
+.nav .button2 .a{
     font-family: 'Lora', serif;
 
 }
-.title{
+.title2{
     background-color:rgb(26,56,130) ;
     color: white;
     font-size: xx-large;
     padding: 2%;
 
 }
-.container{
+.container2{
     display: flex;
     background-color:rgb(26,56,130) ;
     padding: 2%; 
 }
+.container2:after {
+    position: absolute;
+    content: '';
+    width: 495px;
+    height: 346px;
+    background: url(./Images/pattern.png) top left;
+    bottom: -520px;
+    right: 0;
+}
+.bt1:hover{
+    background-color: rgb(26,56,130);
+    border: 2px solid white;
+}
+.bt2:hover{
+    background-color: #eee;
+    color: #eee;
+}
 .wri{
-    flex: 70%;
+    flex: 40%;
     color: white;
      font-size: x-large;
 }
