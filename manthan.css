@@ -21,9 +21,21 @@ body{
 	box-shadow: 4px 3px 8px 1px #969696;
   	-webkit-box-shadow: 4px 3px 8px 1px #969696;
 }
+.cards-white:hover {
+    transform: scale3d(0.5);
+    background-color: #f1b45e;
+    transform: rotateX();
+}
+.cards-white-main:hover {
+    background-color: #eee;
+}
+.card:hover {
+    box-shadow: 3px 0px 15px 0px rgba(196, 120, 21, 0.08);
+    background-color: #f1b45e;
+    transform: rotateX(90deg);
+}
 .card-img{
-	
-	padding-top: 20px;
+    padding-top: 20px;
 	padding-bottom: 10px; 
 }
 .blue-cards-main-div{
